@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "653537e3-7565-4811-9535-fe7ffa357fe0",
+		"name": "Для тестового задания",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28689127"
+	},
+	"item": [
+		{
+			"name": "party",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 7f4a21a8e489f34708a8bbce383106e2cfd3392f",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"query\": \"7707083893\"}"
+				},
+				"url": {
+					"raw": "https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party",
+					"protocol": "https",
+					"host": [
+						"suggestions",
+						"dadata",
+						"ru"
+					],
+					"path": [
+						"suggestions",
+						"api",
+						"4_1",
+						"rs",
+						"findById",
+						"party"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "affiliated",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 7f4a21a8e489f34708a8bbce383106e2cfd3392f",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"query\": \"7736207543\" }"
+				},
+				"url": {
+					"raw": "https://suggestions.dadata.ru/suggestions/api/4_1/rs/findAffiliated/party",
+					"protocol": "https",
+					"host": [
+						"suggestions",
+						"dadata",
+						"ru"
+					],
+					"path": [
+						"suggestions",
+						"api",
+						"4_1",
+						"rs",
+						"findAffiliated",
+						"party"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "company/by-email",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 7f4a21a8e489f34708a8bbce383106e2cfd3392f",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"query\": \"7736207543\" }"
+				},
+				"url": {
+					"raw": "https://suggestions.dadata.ru/suggestions/api/4_1/rs/findAffiliated/party",
+					"protocol": "https",
+					"host": [
+						"suggestions",
+						"dadata",
+						"ru"
+					],
+					"path": [
+						"suggestions",
+						"api",
+						"4_1",
+						"rs",
+						"findAffiliated",
+						"party"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
